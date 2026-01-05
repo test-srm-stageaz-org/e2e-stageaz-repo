@@ -6,6 +6,8 @@ This document lists all intentional vulnerabilities in this test project with th
 
 ### Critical Code Security Issues
 | CWE ID | Vulnerability Type | Location | Description |
+
+
 |--------|-------------------|----------|-------------|
 | CWE-89 | SQL Injection | `/user` endpoint | Unsanitized user input in SQL query |
 | CWE-78 | OS Command Injection | `/ping` endpoint | Direct command execution with user input |
